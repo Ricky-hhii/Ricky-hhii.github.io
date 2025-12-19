@@ -2,34 +2,81 @@
     <head>
         <title>Ricky's Website</title>
         <style>
-            /*background layer for header area*/
-            .header-wrapper {
-                background:linear-gradient(180deg, #E2E2E2) ;
-                padding: 16px 20px;
-                text-align: left;
-                padding:16px 20px;
+            
+            
+            
+            .first_page {
+                margin: 20px;
+                font-size: 16px;
+                color:#333;
+                line-height: 1.6;
+                background: linear-gradient(180deg, #f0f0f0, #ffffff);
+                padding: 20px;
+                border-radius: 8px;
+            }
+            .first_page img {
+                max-width: 100%;
+                height: auto;
+                margin-top: 10px;
+            }
+            hr {
+                border: none;
+                height: 2px;
+                background-color: #000000;
+            }
+            .Button-container {
                 display:flex;
+                gap: 20px;
+                flex:1;
+                justify-content: space-evenly;
+                padding: 0 20px;
+            }
+            .button {
+                flex:1;
+                height: 250px;
+                background-color: antiquewhite;
+                border-radius:8px;
+                display: flex;
                 align-items: center;
-                gap:12xp;
+                justify-content: center;
+                max-width: 250px;
             }
-            .logo {
-                width:50px;
-                height: 50px;
-                object-fit: contain;
-                margin-right:12px;
-            }
-            .header-wrapper p {
-                margin: 0;
-            }
+            .title {
+                margin: 20px;}
         </style>
+        <link rel="stylesheet" href="styles.css"/>
     </head>
     <body>
         <header class="header-wrapper">
-        <img class="logo" src="pictures/logo.png" alt="Ricky's Logo"/>
-        <p>home page</p>
+        <img class="logo" src="pictures/logo.png" alt="Logo"/>
+        <div class="header_words">
+            <a href="index.html">Home page</a>
+            <a href="about-us.html">About us</a>
+            <a href="Table.html">Table</a>
+            <a href="#">Log in</a>
+        </div>
         </header>
-        <h1>Welcome</h1>
-
-        <p>Content goes here</p>
+        <h1 class="title">Welcome</h1>
+        <hr>
+        <section class="first_page">
+            <h2>Products</h2>
+            <p>Content goes here 
+            bla bla bla bla bla bla</p>
+            <img src="pictures/Malassombrotv Top Wallpaper Of Beautiful Places.jpg" alt="default image"/>
+        </section>
+        <section class="Button-container">
+            <a class="button" href="#">button1
+            <p>this button is for testing</p>
+            </a>
+            <a class="button">button2
+            <p>this button is for testing</p>
+            </a>
+            <a class="button">button3
+            <p>this button is for testing</p>
+            </a>
+            <a class="button">button4
+            <p>this button is for testing</p>
+            </a>
+        </section>
     </body>
 </html>
