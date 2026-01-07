@@ -3,7 +3,7 @@
 
 /*background layer for header area, linear-gradient means the angle*/
             .header-wrapper {
-                background:linear-gradient(180deg, #4b6cb7, antiquewhite); ;
+                background:linear-gradient(180deg, #C7C7C7, #A2A2A2);
                 padding: 16px 20px;
                 text-align: left;
                 display:flex;
